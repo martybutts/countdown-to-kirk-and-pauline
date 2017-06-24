@@ -1,5 +1,10 @@
 body{
-  background: #282e3a;
+  background-image: url("../images/view.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background: #E53935;*/
   font-family: tahoma;
 }
 h1{
@@ -17,9 +22,14 @@ h3{
   margin-top: 5px;
 }
 #del-countdown{
-  width: 850px;
+  width: 650px;
   margin: 15% auto;
 }
+#clock{
+  display: flex;
+  justify-content: center;
+}
+
 #clock span{
   float: left;
   text-align: center;
@@ -43,13 +53,17 @@ h3{
 #clock span:nth-child(4){
   background: #C4C4C4;
 }
-#clock span:nth-child(5){
+/*#clock span:nth-child(5){
   background: #D9D7D7;
-}
+}*/
 #clock:after{
   content: "";
   display: block;
   clear: both;
+}
+#units{
+  display: flex;
+  justify-content: center;
 }
 #units span{
   float: left;
