@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/martybutts/countdown-to-kirk-and-pauline/issues"
   },
-  "homepage": "https://github.com/martybutts/countdown-to-kirk-and-pauline#readme"
+  "homepage": "https://github.com/martybutts/countdown-to-kirk-and-pauline#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.4.0"
+  }
 }
